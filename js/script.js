@@ -44,7 +44,7 @@ $(window).scroll(function() {
     }
 });
 
-$(document).on('click', 'a.link', function() {
+$(document).on('click', '.link', function() {
     event.preventDefault()
     var section = $(this).attr('data-move')
     $('#fullpage').pagepiling.moveTo(section);
