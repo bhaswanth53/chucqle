@@ -1,5 +1,10 @@
 var header = $(".cus-nav")
 var width = $( window ).width();
+var loader = document.getElementById('overlay')
+
+window.addEventListener('load', function() {
+    loader.style.display = "none"
+})
 
 if(width > 768) {
     $('#fullpage').pagepiling({
