@@ -260,6 +260,13 @@ body {
         width: 80%;
         padding: 0;
     }
+
+    .eight .klabel {
+        color: #FFFFFF;
+        text-align: center;
+        font-family: 'Comfortaa', cursive;
+        margin: 0;
+    }
 }
 /* End of responsive styles */
 
